@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="#F1F1F1"
+        android:endColor="#E0E0E0"
+        android:angle="270" />
+
+    <!-- Закругление углов -->
+    <corners android:radius="16dp"/> <!-- Закругление углов, можно изменить на любое другое значение -->
+
+    <!-- Обводка -->
+    <stroke android:color="#C5C5C5" android:width="2dp" /> <!-- Серый цвет обводки -->
+
+    <!-- Тень (для более выразительного эффекта) -->
+    <solid android:color="#FFFFFF"/> <!-- Белый фон -->
+</shape>
